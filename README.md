@@ -303,4 +303,3 @@ terraform apply -var-file="dev.auto.tfvars"
 - Use **maps** for multi-instance resources (e.g., `vmss_config`, `account_configs`).
 - Prefer **Managed Identity** over connection strings for service auth.
 - Use **Private Endpoints** + Private DNS Zones for data plane access.
-- Avoid `-target` applies except for troubleshooting.
